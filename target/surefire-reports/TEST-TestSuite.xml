@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="60.122" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/saranya/git/jombone/Drivers/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/saranya/git/jombone/target/test-classes:/Users/saranya/git/jombone/target/classes:/Users/saranya/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/saranya/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/saranya/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/saranya/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/saranya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/saranya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/saranya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/saranya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/saranya/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/saranya/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/saranya/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/saranya/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/saranya/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/saranya/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/saranya/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/saranya/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/saranya/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/saranya/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/saranya/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/saranya/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/saranya/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/saranya/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/saranya/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/saranya/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/saranya/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/saranya/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/saranya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/saranya/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/saranya/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/saranya/git/jombone/target/surefire/surefirebooter3887640101528569542.jar /Users/saranya/git/jombone/target/surefire 2021-11-16T14-38-45_039-jvmRun1 surefire409711825778341093tmp surefire_05783845787092353706tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/saranya/git/jombone/target/test-classes:/Users/saranya/git/jombone/target/classes:/Users/saranya/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/saranya/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/saranya/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/saranya/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/saranya/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/saranya/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/saranya/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/saranya/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/saranya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/saranya/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/saranya/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/saranya/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/saranya/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/saranya/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/saranya/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/saranya/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/saranya/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/saranya/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/saranya/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/saranya/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/saranya/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/saranya/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/saranya/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/saranya/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/saranya/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/saranya/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/saranya/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/saranya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/saranya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/saranya/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/saranya/.m2/repository/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar:/Users/saranya/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/saranya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/saranya/git/jombone"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/saranya/git/jombone/target/surefire/surefirebooter3887640101528569542.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="user.name" value="saranya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/saranya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nf/53c_1d4119d7dqy909g8xhnm0000gp/T/"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="user.dir" value="/Users/saranya/git/jombone"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/saranya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.ext.dirs" value="/Users/saranya/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testCandidateSignUpLink" classname="com.testCases.JMB_CASignUp_001" time="1.436">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_001.java:36)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_001.java:41)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_001.java:45)- Displayed Candidate SignUp form--> Met Acceptance Criteria
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 36056
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:38:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_chars_space" classname="com.testCases.JMB_CASignUp_002" time="2.437">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_002.java:23)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_002.java:25)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_002.java:29)- Entered First Name Saranya Jeyakanth
+ INFO [main] (CA_SignUpPage.java:98)- No-Error Msg displayed--> Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:99)- Test Case Validation Successfull--> First Name with Characters and Space
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 44141
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:38:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_SpecialChars" classname="com.testCases.JMB_CASignUp_003" time="1.793">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_003.java:19)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_003.java:21)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_003.java:25)- Entered First Name !@#$%^&
+ INFO [main] (CA_SignUpPage.java:115)- Please enter valid first name
+ INFO [main] (CA_SignUpPage.java:116)- Displayed error message for Special characters-->Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:117)- Test Case Validation Successfull-->Special Characters in First Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 48362
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_Blank" classname="com.testCases.JMB_CASignUp_004" time="1.889">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_004.java:18)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_004.java:20)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_004.java:23)- Entered First Name 
+ INFO [main] (CA_SignUpPage.java:140)- Please enter first name
+ INFO [main] (CA_SignUpPage.java:141)- Displayed error message for leaving First name empty-->Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:142)- Test Case Validation Successfull-->Blank in First Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 27429
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_NoLonger50" classname="com.testCases.JMB_CASignUp_005" time="1.945">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_005.java:18)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_005.java:20)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_005.java:24)- Entered First Name: Mary had a Little Lamb
+ INFO [main] (CA_SignUpPage.java:263)- First name No Longer than 50 chars, size= 22
+ INFO [main] (CA_SignUpPage.java:264)- No Error Msg displayed-->Met Acceptance Criteria
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 24644
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_Longer_than_50" classname="com.testCases.JMB_CASignUp_006" time="1.727">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_006.java:17)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_006.java:19)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_006.java:24)- Input Test data-->abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+ INFO [main] (CA_SignUpPage.java:278)- First name Longer than 50 chars.. limit reached, size= 50
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 11834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_firstName_Numbers" classname="com.testCases.JMB_CASignUp_007" time="1.886">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_007.java:17)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_007.java:19)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_007.java:22)- Entered First Name-->7872136571
+ INFO [main] (CA_SignUpPage.java:162)- Error message-->Please enter valid first name
+ INFO [main] (CA_SignUpPage.java:163)- Displayed error message for Numbers-->Met Acceptance Criteria
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 3041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_lastName_chars_space" classname="com.testCases.JMB_CASignUp_008" time="1.737">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_008.java:17)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_008.java:19)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_008.java:21)- Entered Last Name Sarani Jey
+ INFO [main] (CA_SignUpPage.java:195)- No-Error Msg displayed--> Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:196)- Test Case Validation Successfull--> Last Name with Characters and Space
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 27984
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_lastName_SpecialChars" classname="com.testCases.JMB_CASignUp_009" time="1.831">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_009.java:18)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_009.java:20)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_009.java:22)- Entered Last Name !@#$%^&
+ INFO [main] (CA_SignUpPage.java:212)- Please enter valid last name
+ INFO [main] (CA_SignUpPage.java:213)- Displayed error message for Special characters-->Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:214)- Test Case Validation Successfull-->Special Characters in Last Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 44191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCA_lastName_Blank" classname="com.testCases.JMB_CASignUp_010" time="2.723">
+    <system-out><![CDATA[DEBUG [main] (BaseClass.java:53)- Debug logging has started 
+ INFO [main] (JMB_CASignUp_010.java:17)- Clicking on Look for Job
+ INFO [main] (JMB_CASignUp_010.java:19)- Clicking on Signup
+ INFO [main] (JMB_CASignUp_010.java:22)- Entered Last Name 
+ INFO [main] (CA_SignUpPage.java:236)- Please enter last name
+ INFO [main] (CA_SignUpPage.java:237)- Displayed error message for leaving Last name empty-->Met Acceptance Criteria
+ INFO [main] (CA_SignUpPage.java:238)- Test Case Validation Successfull-->Blank in Last Name
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 42054
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 16, 2021 2:39:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

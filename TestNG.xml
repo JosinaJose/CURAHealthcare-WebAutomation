@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Curahealthcare">
+
+	<listeners>
+
+		<listener class-name="com.utilities.Reporting" />
+	</listeners>
+
+	<test name="TestNGTest1" thread-count="5">
+		<classes>
+			  <class name="com.testCases.MakeAppointmentLogin" />
+			  <class name="com.testCases.ReadmissionBooking" />
+			  <class name="com.testCases.BookingAppointment" />
+			  <class name="com.testCases.InvalidDate" />
+		</classes>
+	</test>
+</suite> <!-- Suite --> 
