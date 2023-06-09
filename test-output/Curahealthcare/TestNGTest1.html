@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestNGTest1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 07 15:31:41 EDT 2023</td>
+<td>Started on:</td><td>Fri Jun 09 11:58:13 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38283 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39180 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,57 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testCases.InvalidDate.invalidDate()'><b>invalidDate</b><br>Test class: com.testCases.InvalidDate</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.testCases.InvalidDate.invalidDate(InvalidDate.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1686965869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1686965869'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.testCases.InvalidDate.invalidDate(InvalidDate.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.testCases.InvalidDate@201a4587</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,70 +126,95 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testCases.ReadmissionBooking.checkBoxReadmission()'><b>checkBoxReadmission</b><br>Test class: com.testCases.ReadmissionBooking</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
-<tr>
-<td title='com.testCases.ReadmissionBooking.visitingDate()'><b>visitingDate</b><br>Test class: com.testCases.ReadmissionBooking</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
-<tr>
-<td title='com.testCases.BookingAppointment.bookingConfirmation()'><b>bookingConfirmation</b><br>Test class: com.testCases.BookingAppointment</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.BookingAppointment@27462a88</td></tr>
-<tr>
-<td title='com.testCases.BookingAppointment.bookingAppointment()'><b>bookingAppointment</b><br>Test class: com.testCases.BookingAppointment</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.BookingAppointment@27462a88</td></tr>
-<tr>
-<td title='com.testCases.InvalidDate.invalidDate()'><b>invalidDate</b><br>Test class: com.testCases.InvalidDate</td>
-<td></td>
-<td>1</td>
-<td>com.testCases.InvalidDate@659499f1</td></tr>
-<tr>
-<td title='com.testCases.ReadmissionBooking.sendComment()'><b>sendComment</b><br>Test class: com.testCases.ReadmissionBooking</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
-<tr>
-<td title='com.testCases.BookingAppointment.radioButn()'><b>radioButn</b><br>Test class: com.testCases.BookingAppointment</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.BookingAppointment@27462a88</td></tr>
-<tr>
-<td title='com.testCases.ReadmissionBooking.selectingFacility()'><b>selectingFacility</b><br>Test class: com.testCases.ReadmissionBooking</td>
-<td></td>
-<td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
-<tr>
-<td title='com.testCases.MakeAppointmentLogin.curaHealthCarelogin()'><b>curaHealthCarelogin</b><br>Test class: com.testCases.MakeAppointmentLogin</td>
-<td></td>
-<td>1</td>
-<td>com.testCases.MakeAppointmentLogin@550dbc7a</td></tr>
-<tr>
 <td title='com.testCases.ReadmissionBooking.readmissionConfirmation()'><b>readmissionConfirmation</b><br>Test class: com.testCases.ReadmissionBooking</td>
 <td></td>
 <td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
+<tr>
+<td title='com.testCases.ReadmissionBooking.checkBoxReadmission()'><b>checkBoxReadmission</b><br>Test class: com.testCases.ReadmissionBooking</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: 123456.0, password</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
 <tr>
 <td title='com.testCases.BookingAppointment.sendComment()'><b>sendComment</b><br>Test class: com.testCases.BookingAppointment</td>
 <td></td>
 <td>0</td>
-<td>com.testCases.BookingAppointment@27462a88</td></tr>
+<td>com.testCases.BookingAppointment@51e69659</td></tr>
+<tr>
+<td title='com.testCases.ReadmissionBooking.visitingDate()'><b>visitingDate</b><br>Test class: com.testCases.ReadmissionBooking</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
 <tr>
 <td title='com.testCases.BookingAppointment.selectingVisitDate()'><b>selectingVisitDate</b><br>Test class: com.testCases.BookingAppointment</td>
 <td></td>
 <td>0</td>
-<td>com.testCases.BookingAppointment@27462a88</td></tr>
+<td>com.testCases.BookingAppointment@51e69659</td></tr>
+<tr>
+<td title='com.testCases.BookingAppointment.bookingAppointment()'><b>bookingAppointment</b><br>Test class: com.testCases.BookingAppointment</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.BookingAppointment@51e69659</td></tr>
+<tr>
+<td title='com.testCases.BookingAppointment.bookingConfirmation()'><b>bookingConfirmation</b><br>Test class: com.testCases.BookingAppointment</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.BookingAppointment@51e69659</td></tr>
+<tr>
+<td title='com.testCases.BookingAppointment.radioButn()'><b>radioButn</b><br>Test class: com.testCases.BookingAppointment</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.BookingAppointment@51e69659</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: special!@user, password123</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: username123, special!@pass</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: passUser, pass</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
 <tr>
 <td title='com.testCases.ReadmissionBooking.healthProgramOptionbtn()'><b>healthProgramOptionbtn</b><br>Test class: com.testCases.ReadmissionBooking</td>
 <td></td>
 <td>0</td>
-<td>com.testCases.ReadmissionBooking@67f639d3</td></tr>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
+<tr>
+<td title='com.testCases.ReadmissionBooking.sendComment()'><b>sendComment</b><br>Test class: com.testCases.ReadmissionBooking</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: toolongusername1111111111111, toolongpassword888888888888888888</td>
+<td></td>
+<td>1</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
+<tr>
+<td title='com.testCases.ReadmissionBooking.selectingFacility()'><b>selectingFacility</b><br>Test class: com.testCases.ReadmissionBooking</td>
+<td></td>
+<td>0</td>
+<td>com.testCases.ReadmissionBooking@71a8adcf</td></tr>
+<tr>
+<td title='com.testCases.MakeAppointmentLogin.curaHealthCarelogin()'><b>curaHealthCarelogin</b><br>Test class: com.testCases.MakeAppointmentLogin</td>
+<td></td>
+<td>1</td>
+<td>com.testCases.MakeAppointmentLogin@7bab3f1a</td></tr>
+<tr>
+<td title='com.testCases.InvalidLogin.invalidLogin()'><b>invalidLogin</b><br>Test class: com.testCases.InvalidLogin<br>Parameters: abcd@, wert789</td>
+<td></td>
+<td>1</td>
+<td>com.testCases.InvalidLogin@54a7079e</td></tr>
 </table><p>
 </body>
 </html>

@@ -20,7 +20,7 @@ public class Reporting extends TestListenerAdapter
 	public ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public ExtentTest test;
-	//ThreadLocal<ExtentTest> extentTest;
+	ThreadLocal<ExtentTest> extentTest;
 
 	
 	
@@ -30,7 +30,7 @@ public class Reporting extends TestListenerAdapter
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		String repName="Test-Report-"+timeStamp+".html"; // Report name and time stamp in html format
 		
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "\\test-output\\"+repName);//specify location of the report
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "\\Reports\\"+repName);//specify location of the report
 		
 		htmlReporter.config().setDocumentTitle("Automation Report"); // Tile of report - given by the user
 		htmlReporter.config().setReportName("Functional Testing"); // name of the report - given by the user
@@ -54,6 +54,12 @@ public class Reporting extends TestListenerAdapter
 		
 		
 	}
+	 public void onTestSuccess(ITestResult result) {
+	        test = extent.createTest(result.getName().toUpperCase());
+	        test.log(Status.PASS, "Test Case PASSED IS " + result.getName().toUpperCase());
+	    }
+
+	  
 	
 	
 

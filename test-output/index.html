@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Curahealthcare" class="navigator-link">
-              <span class="suite-name border-passed">Curahealthcare</span>
+              <span class="suite-name border-failed">Curahealthcare</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Curahealthcare" class="hide-methods failed suite-Curahealthcare"> (hide)</a> <!-- hide-methods failed suite-Curahealthcare -->
+                      <a href="#" panel-name="suite-Curahealthcare" class="show-methods failed suite-Curahealthcare"> (show)</a> <!-- show-methods failed suite-Curahealthcare -->
+                    </span>
+                    <div class="method-list-content failed suite-Curahealthcare">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidDate" class="method navigator-link" hash-for-method="invalidDate">invalidDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Curahealthcare -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,7 +143,32 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidDate" class="method navigator-link" hash-for-method="invalidDate">invalidDate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(123456.0, password)">invalidLogin(123456.0, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(special!@user, password123)">invalidLogin(special!@user, password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(username123, special!@pass)">invalidLogin(username123, special!@pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(passUser, pass)">invalidLogin(passUser, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(toolongusername1111111111111, toolongpassword888888888888888888)">invalidLogin(toolongusername1111111111111, toolongpassword888888888888888888)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidLogin(abcd@, wert789)">invalidLogin(abcd@, wert789)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,12 +193,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.ReadmissionBooking" class="method navigator-link" hash-for-method="sendComment">sendComment</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.BookingAppointment" class="method navigator-link" hash-for-method="sendComment">sendComment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.BookingAppointment" class="method navigator-link" hash-for-method="sendComment">sendComment</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Curahealthcare" title="com.testCases.ReadmissionBooking" class="method navigator-link" hash-for-method="sendComment">sendComment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -179,9 +218,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Curahealthcare" class="panel Curahealthcare">
-          <div class="suite-Curahealthcare-class-passed">
+          <div class="suite-Curahealthcare-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.testCases.InvalidDate</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -190,10 +229,16 @@
                   <a name="invalidDate">
                   </a> <!-- invalidDate -->
                   <span class="method-name">invalidDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.testCases.InvalidDate.invalidDate(InvalidDate.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Curahealthcare-class-passed -->
+          </div> <!-- suite-Curahealthcare-class-failed -->
           <div class="suite-Curahealthcare-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -302,6 +347,62 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Curahealthcare-class-passed -->
+          <div class="suite-Curahealthcare-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testCases.InvalidLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(123456.0, password)">
+                  </a> <!-- invalidLogin(123456.0, password) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(123456.0, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(special!@user, password123)">
+                  </a> <!-- invalidLogin(special!@user, password123) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(special!@user, password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(username123, special!@pass)">
+                  </a> <!-- invalidLogin(username123, special!@pass) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(username123, special!@pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(passUser, pass)">
+                  </a> <!-- invalidLogin(passUser, pass) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(passUser, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(toolongusername1111111111111, toolongpassword888888888888888888)">
+                  </a> <!-- invalidLogin(toolongusername1111111111111, toolongpassword888888888888888888) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(toolongusername1111111111111, toolongpassword888888888888888888)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin(abcd@, wert789)">
+                  </a> <!-- invalidLogin(abcd@, wert789) -->
+                  <span class="method-name">invalidLogin</span>
+                  <span class="parameters">(abcd@, wert789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Curahealthcare-class-passed -->
         </div> <!-- panel Curahealthcare -->
         <div panel-name="test-xml-Curahealthcare" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -321,6 +422,7 @@
       &lt;class name=&quot;com.testCases.ReadmissionBooking&quot;/&gt;
       &lt;class name=&quot;com.testCases.BookingAppointment&quot;/&gt;
       &lt;class name=&quot;com.testCases.InvalidDate&quot;/&gt;
+      &lt;class name=&quot;com.testCases.InvalidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestNGTest1 --&gt;
 &lt;/suite&gt; &lt;!-- Curahealthcare --&gt;
@@ -334,7 +436,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestNGTest1 (4 classes)</span>
+                <span class="test-name">TestNGTest1 (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -360,64 +462,88 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(19);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'curaHealthCarelogin')
 data.setCell(0, 2, 'com.testCases.MakeAppointmentLogin')
-data.setCell(0, 3, 1662);
+data.setCell(0, 3, 1532);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalidDate')
-data.setCell(1, 2, 'com.testCases.InvalidDate')
-data.setCell(1, 3, 1452);
+data.setCell(1, 1, 'invalidLogin')
+data.setCell(1, 2, 'com.testCases.InvalidLogin')
+data.setCell(1, 3, 1364);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selectingFacility')
-data.setCell(2, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(2, 3, 817);
+data.setCell(2, 1, 'invalidLogin')
+data.setCell(2, 2, 'com.testCases.InvalidLogin')
+data.setCell(2, 3, 1087);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'visitingDate')
-data.setCell(3, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(3, 3, 632);
+data.setCell(3, 1, 'invalidLogin')
+data.setCell(3, 2, 'com.testCases.InvalidLogin')
+data.setCell(3, 3, 954);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'bookingAppointment')
-data.setCell(4, 2, 'com.testCases.BookingAppointment')
-data.setCell(4, 3, 595);
+data.setCell(4, 1, 'invalidLogin')
+data.setCell(4, 2, 'com.testCases.InvalidLogin')
+data.setCell(4, 3, 938);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sendComment')
-data.setCell(5, 2, 'com.testCases.BookingAppointment')
-data.setCell(5, 3, 487);
+data.setCell(5, 1, 'invalidLogin')
+data.setCell(5, 2, 'com.testCases.InvalidLogin')
+data.setCell(5, 3, 909);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sendComment')
-data.setCell(6, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(6, 3, 458);
+data.setCell(6, 1, 'invalidDate')
+data.setCell(6, 2, 'com.testCases.InvalidDate')
+data.setCell(6, 3, 906);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'selectingVisitDate')
-data.setCell(7, 2, 'com.testCases.BookingAppointment')
-data.setCell(7, 3, 400);
+data.setCell(7, 1, 'invalidLogin')
+data.setCell(7, 2, 'com.testCases.InvalidLogin')
+data.setCell(7, 3, 901);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'bookingConfirmation')
+data.setCell(8, 1, 'bookingAppointment')
 data.setCell(8, 2, 'com.testCases.BookingAppointment')
-data.setCell(8, 3, 311);
+data.setCell(8, 3, 727);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'readmissionConfirmation')
+data.setCell(9, 1, 'visitingDate')
 data.setCell(9, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(9, 3, 303);
+data.setCell(9, 3, 613);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'healthProgramOptionbtn')
+data.setCell(10, 1, 'selectingFacility')
 data.setCell(10, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(10, 3, 232);
+data.setCell(10, 3, 526);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'checkBoxReadmission')
+data.setCell(11, 1, 'sendComment')
 data.setCell(11, 2, 'com.testCases.ReadmissionBooking')
-data.setCell(11, 3, 157);
+data.setCell(11, 3, 433);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'radioButn')
+data.setCell(12, 1, 'sendComment')
 data.setCell(12, 2, 'com.testCases.BookingAppointment')
-data.setCell(12, 3, 131);
+data.setCell(12, 3, 420);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'selectingVisitDate')
+data.setCell(13, 2, 'com.testCases.BookingAppointment')
+data.setCell(13, 3, 376);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'bookingConfirmation')
+data.setCell(14, 2, 'com.testCases.BookingAppointment')
+data.setCell(14, 3, 311);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'readmissionConfirmation')
+data.setCell(15, 2, 'com.testCases.ReadmissionBooking')
+data.setCell(15, 3, 272);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'healthProgramOptionbtn')
+data.setCell(16, 2, 'com.testCases.ReadmissionBooking')
+data.setCell(16, 3, 227);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkBoxReadmission')
+data.setCell(17, 2, 'com.testCases.ReadmissionBooking')
+data.setCell(17, 3, 154);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'radioButn')
+data.setCell(18, 2, 'com.testCases.BookingAppointment')
+data.setCell(18, 3, 140);
 window.suiteTableData['Curahealthcare']= { tableData: data, tableDiv: 'times-div-Curahealthcare'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Curahealthcare">
               </div> <!-- times-div-Curahealthcare -->
             </div> <!-- times-div -->
@@ -450,124 +576,169 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">startRecording</span>
-                <span class="method-start">6958 ms</span>
+                <span class="method-start">3920 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">curaHealthCarelogin</span>
-                <span class="method-start">7191 ms</span>
+                <span class="method-start">4067 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">stopRecordings</span>
-                <span class="method-start">8857 ms</span>
+                <span class="method-start">5619 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8978 ms</span>
+                <span class="method-start">5743 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testCases.ReadmissionBooking</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9224 ms</span>
+                <span class="method-start">5983 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">curaHealthcareLogin</span>
-                <span class="method-start">15831 ms</span>
+                <span class="method-start">9753 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">selectingFacility</span>
-                <span class="method-start">17790 ms</span>
+                <span class="method-start">11142 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkBoxReadmission</span>
-                <span class="method-start">18610 ms</span>
+                <span class="method-start">11670 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">healthProgramOptionbtn</span>
-                <span class="method-start">18769 ms</span>
+                <span class="method-start">11826 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">visitingDate</span>
-                <span class="method-start">19004 ms</span>
+                <span class="method-start">12055 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendComment</span>
-                <span class="method-start">19637 ms</span>
+                <span class="method-start">12670 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">readmissionConfirmation</span>
-                <span class="method-start">20097 ms</span>
+                <span class="method-start">13104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">stopRecordings</span>
-                <span class="method-start">20401 ms</span>
+                <span class="method-start">13377 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20545 ms</span>
+                <span class="method-start">13538 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testCases.BookingAppointment</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">20797 ms</span>
+                <span class="method-start">13754 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">curaHealthcareLogin</span>
-                <span class="method-start">25114 ms</span>
+                <span class="method-start">17709 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">bookingAppointment</span>
-                <span class="method-start">26541 ms</span>
+                <span class="method-start">18892 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">radioButn</span>
-                <span class="method-start">27137 ms</span>
+                <span class="method-start">19621 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectingVisitDate</span>
-                <span class="method-start">27270 ms</span>
+                <span class="method-start">19763 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendComment</span>
-                <span class="method-start">27671 ms</span>
+                <span class="method-start">20140 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">bookingConfirmation</span>
-                <span class="method-start">28160 ms</span>
+                <span class="method-start">20563 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">stopRecordings</span>
-                <span class="method-start">28472 ms</span>
+                <span class="method-start">20875 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28569 ms</span>
+                <span class="method-start">20985 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testCases.InvalidDate</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">30083 ms</span>
+                <span class="method-start">21213 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">curaHealthcareLogin</span>
-                <span class="method-start">34621 ms</span>
+                <span class="method-start">25106 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">invalidDate</span>
-                <span class="method-start">36049 ms</span>
+                <span class="method-start">26288 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">stopRecordings</span>
-                <span class="method-start">37502 ms</span>
+                <span class="method-start">27205 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37657 ms</span>
+                <span class="method-start">27312 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testCases.InvalidLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27530 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">curaHealthcareLogin</span>
+                <span class="method-start">31458 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(abcd@, wert789)</span>
+                <span class="method-start">32452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(123456.0, password)</span>
+                <span class="method-start">33817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(passUser, pass)</span>
+                <span class="method-start">34720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(toolongusername1111111111111, toolongpassword888888888888888888)</span>
+                <span class="method-start">35661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(special!@user, password123)</span>
+                <span class="method-start">36750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin(username123, special!@pass)</span>
+                <span class="method-start">37705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">stopRecordings</span>
+                <span class="method-start">38616 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38731 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

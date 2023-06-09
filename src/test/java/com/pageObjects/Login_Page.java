@@ -40,6 +40,10 @@ public class Login_Page  extends BasePage{
 	@CacheLookup
 	public WebElement loginbtn;
 	
+	@FindBy(xpath="//p[@class='lead text-danger']")
+	@CacheLookup
+	public WebElement loginFaild;
+	
 	
 	
 	
@@ -68,5 +72,10 @@ public class Login_Page  extends BasePage{
 		wait.until(ExpectedConditions.visibilityOf(loginbtn));
 		loginbtn.click();
 	}
-	
+	public String invalidcredentials() {
+		wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOf(loginFaild));
+		String expectedError = loginFaild.getText();
+		return expectedError;
+	}
 }

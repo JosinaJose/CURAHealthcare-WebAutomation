@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -15,7 +16,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.base.BaseClass;
 import com.pageObjects.BookingAppointmentPage;
 import com.utilities.Screen_Recordings;
-
+//@Listeners(com.utilities.Reporting.class)
 
 public class BookingAppointment extends BaseClass {
 	

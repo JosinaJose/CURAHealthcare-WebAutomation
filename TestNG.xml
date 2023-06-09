@@ -13,6 +13,7 @@
 			  <class name="com.testCases.ReadmissionBooking" />
 			  <class name="com.testCases.BookingAppointment" />
 			  <class name="com.testCases.InvalidDate" />
+			  <class name="com.testCases.InvalidLogin" />
 		</classes>
 	</test>
 </suite> <!-- Suite --> 
