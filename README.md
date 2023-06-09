@@ -15,6 +15,19 @@ Extent Report: Extent Report is a versatile reporting framework that generates d
 
 Video Recordings: The automation script incorporates video recording capabilities to capture the test execution process. Video recordings can be useful for debugging, analyzing test flow, and identifying potential issues that may not be evident in logs or reports.
 
+## Page Object Model (POM) Design Pattern
+
+To improve the structure and maintainability of the automation script, I have implemented the Page Object Model (POM) design pattern. The POM design pattern allows for the creation of reusable and modular code by representing each web page or component of the application as a separate class. This class, commonly referred to as a "Page Object," encapsulates the related web elements and actions associated with that page or component.
+
+In my automation script, I have created a dedicated package called "Page" where I store all the Page Object classes. These classes contain methods to interact with the web elements on their respective pages, such as entering text, clicking buttons, and retrieving information. By encapsulating the web elements and actions within the Page Object classes, it becomes easier to maintain and update the automation script as changes to the application occur.
+
+By leveraging the POM design pattern, I ensure that my automation script follows a modular and reusable structure. This allows for easier test case creation, maintenance, and scalability as the application evolves over time. It promotes code reusability, reduces code duplication, and enhances the overall readability and maintainability of the automation script.
+
+With the POM design pattern in place, I can easily update my automation script whenever there are changes to the application's user interface or functionality. I only need to modify the corresponding Page Object class, keeping the changes localized and minimizing the impact on other parts of the script.
+
+###### By combining soft assertions with if conditions, I can perform multiple validations within a test case and collect all the failures without terminating the test execution. This approach provides comprehensive validation coverage and helps in identifying and fixing multiple issues in a single test run.
+
+
 # Test Cases
 ### Positive Test Cases
 
@@ -26,15 +39,4 @@ Video Recordings: The automation script incorporates video recording capabilitie
 2) Invalid Date Booking: Verify that the system handles and displays appropriate error messages when users attempt to book appointments with invalid dates.
 3) Missing Required Fields: Ensure that the system properly handles scenarios where users submit appointment forms with missing or incomplete required fields.
 
-###### By combining soft assertions with if conditions, I can perform multiple validations within a test case and collect all the failures without terminating the test execution. This approach provides comprehensive validation coverage and helps in identifying and fixing multiple issues in a single test run.
-
-## Page Object Model (POM) Design Pattern
-
-To improve the structure and maintainability of the automation script, I have implemented the Page Object Model (POM) design pattern. The POM design pattern allows for the creation of reusable and modular code by representing each web page or component of the application as a separate class. This class, commonly referred to as a "Page Object," encapsulates the related web elements and actions associated with that page or component.
-
-In my automation script, I have created a dedicated package called "Page" where I store all the Page Object classes. These classes contain methods to interact with the web elements on their respective pages, such as entering text, clicking buttons, and retrieving information. By encapsulating the web elements and actions within the Page Object classes, it becomes easier to maintain and update the automation script as changes to the application occur.
-
-By leveraging the POM design pattern, I ensure that my automation script follows a modular and reusable structure. This allows for easier test case creation, maintenance, and scalability as the application evolves over time. It promotes code reusability, reduces code duplication, and enhances the overall readability and maintainability of the automation script.
-
-With the POM design pattern in place, I can easily update my automation script whenever there are changes to the application's user interface or functionality. I only need to modify the corresponding Page Object class, keeping the changes localized and minimizing the impact on other parts of the script.
 
