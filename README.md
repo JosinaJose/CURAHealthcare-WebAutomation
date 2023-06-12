@@ -1,4 +1,4 @@
-# CURA Healthcare Service Automation Script       
+# CURA Healthcare Service Automation Script -Sample Project      
 The Cura Healthcare Service Automation Script is a Java Selenium-based framework that automates the process of making appointments with the Cura Healthcare Service. It utilizes various tools and technologies, including Maven, Excel for test data management, Extend Report for detailed test reporting, and video recording for capturing the test execution process.It leverages several key technologies and tools to enhance the automation process and provide detailed reporting capabilities.
 ## Technologies and Tools Used
 Java: The programming language I used for developing the automation script. Java offers a robust and object-oriented approach to building reliable and scalable automation frameworks.
