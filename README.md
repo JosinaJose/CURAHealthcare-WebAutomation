@@ -27,6 +27,10 @@ With the POM design pattern in place, I can easily update my automation script w
 
 ###### By combining soft assertions with if conditions, I can perform multiple validations within a test case and collect all the failures without terminating the test execution. This approach provides comprehensive validation coverage and helps in identifying and fixing multiple issues in a single test run.
 
+## Reports
+As an automation tester, I leverage the power of Extent Reports to generate detailed and visually rich reports for my test automation projects. Extent Reports allows me to present test execution results in an organized and informative manner.
+![12 06 2023_12 31 05_REC-Screenshots](https://github.com/JosinaJose/CURAHealthcare-WebAutomation/assets/102236830/5feda018-6802-43dc-9e9a-ad0d8500c44c)
+![12 06 2023_12 32 44_REC](https://github.com/JosinaJose/CURAHealthcare-WebAutomation/assets/102236830/1abe4252-88f6-4bb8-842f-a51b1024efe2)
 
 # Test Cases
 ### Positive Test Cases
