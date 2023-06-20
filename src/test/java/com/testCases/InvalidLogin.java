@@ -33,7 +33,7 @@ public class InvalidLogin extends BaseClass {
 		String actualErrorMsg = "Login failed! Please ensure the username and password are valid.";
 		if(actualErrorMsg.equalsIgnoreCase(page.invalidcredentials())) {
 			softAssert.assertTrue(true);
-			System.out.println(page.invalidcredentials());
+			System.out.println("Warning Message:"+" "+page.invalidcredentials());
 		}else {
 			softAssert.assertTrue(false);
 			try {

@@ -13,22 +13,23 @@ import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.base.BaseClass;
 import com.pageObjects.BookingAppointmentPage;
 import com.utilities.Screen_Recordings;
-//@Listeners(com.utilities.Reporting.class)
+@Listeners(com.utilities.Reporting.class)
 
 public class BookingAppointment extends BaseClass {
 	
-	 private ExtentReports extent;
-
+     public ExtentReports extent = new ExtentReports();
+     public ExtentTest test;
 	@BeforeClass
 	public void curaHealthcareLogin() throws Exception {
 		
 		Screen_Recordings.startRecording("BookingAppoinment");
 		MakeAppointmentLogin log = new MakeAppointmentLogin();
 		log.curaHealthCarelogin();
-	}
+		}
 	
 	  
 
@@ -36,6 +37,7 @@ public class BookingAppointment extends BaseClass {
 	
 	@Test(priority =1)
 	public void bookingAppointment() throws Exception {
+				
 		BookingAppointmentPage book= new BookingAppointmentPage(driver);
 		SoftAssert softAssert = new SoftAssert();
 		// validating the drop down menu -selecting facility
@@ -57,6 +59,7 @@ public class BookingAppointment extends BaseClass {
 			}
 		}
 		softAssert.assertAll();
+		
 	}
 	@Test(priority=2)	
 	public void radioButn() {
@@ -87,6 +90,7 @@ public class BookingAppointment extends BaseClass {
 
 	@Test(priority=3)
 	public void selectingVisitDate() {
+		
 	    BookingAppointmentPage book = new BookingAppointmentPage(driver);
 
 	    SoftAssert softAssert = new SoftAssert();
@@ -96,6 +100,7 @@ public class BookingAppointment extends BaseClass {
 
 	    if (actualDate.equals(expectedDate)) {
 	        softAssert.assertTrue(true);
+	       
 	    } else {
 	        softAssert.assertTrue(false);
 	        try {
@@ -154,6 +159,7 @@ public class BookingAppointment extends BaseClass {
 
 		softAssert.assertAll();
 	}
+	
 	@AfterClass
 	public void stopRecordings() throws Exception {
 		 Screen_Recordings.stopRecording();

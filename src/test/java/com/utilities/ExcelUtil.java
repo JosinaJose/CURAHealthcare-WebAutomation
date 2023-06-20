@@ -2,6 +2,7 @@ package com.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
@@ -45,6 +46,7 @@ public class ExcelUtil {
 	            System.out.println(data[i - 1][j]);
 	        }
 	    }
+	    
 
 	    wb.close();
 	    fis.close();
@@ -52,6 +54,8 @@ public class ExcelUtil {
 	    return data;
 	}
 
-   
-    
 }
+
+
+	
+

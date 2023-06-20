@@ -47,8 +47,6 @@ public class Reporting extends TestListenerAdapter
 		extent.setSystemInfo("Language: ", "Java");
 		extent.setSystemInfo("Browser name","Chrome");
 		extent.setSystemInfo("Tools used: ","Maven & TestNG");
-		extent.setSystemInfo("Josina","busyQA");
-		extent.setSystemInfo("Client: ","freshii");
 		
 		
 		

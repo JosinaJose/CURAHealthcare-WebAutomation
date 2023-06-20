@@ -43,7 +43,7 @@ public class BaseClass
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver(handlingSSL);
 		// Initialization // Logger initiated within the setup method
-		logger=Logger.getLogger("Freshii");// Project Name
+		logger=Logger.getLogger("CURA Healthcare Service");// Project Name
 		PropertyConfigurator.configure("log4j.properties"); // Added Logger
 		logger.setLevel(Level.DEBUG); // to get the debug log
 		logger.debug("Debug logging has started ");

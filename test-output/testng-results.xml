@@ -2,100 +2,100 @@
 <testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T11:58:13 EDT" name="Curahealthcare" finished-at="2023-06-09T11:58:52 EDT" duration-ms="39180">
+  <suite started-at="2023-06-20T10:54:30 EDT" name="Curahealthcare" finished-at="2023-06-20T10:55:38 EDT" duration-ms="68054">
     <groups>
     </groups>
-    <test started-at="2023-06-09T11:58:13 EDT" name="TestNGTest1" finished-at="2023-06-09T11:58:52 EDT" duration-ms="39180">
+    <test started-at="2023-06-20T10:54:30 EDT" name="TestNGTest1" finished-at="2023-06-20T10:55:38 EDT" duration-ms="68054">
       <class name="com.testCases.ReadmissionBooking">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:20 EDT" name="setup" finished-at="2023-06-09T11:58:23 EDT" duration-ms="3770" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:51 EDT" name="setup" finished-at="2023-06-20T10:54:56 EDT" duration-ms="4547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:23 EDT" name="curaHealthcareLogin" finished-at="2023-06-09T11:58:25 EDT" duration-ms="1387" status="PASS">
+        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:56 EDT" name="curaHealthcareLogin" finished-at="2023-06-20T10:54:58 EDT" duration-ms="1935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaHealthcareLogin -->
-        <test-method signature="selectingFacility()[pri:1, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:25 EDT" name="selectingFacility" finished-at="2023-06-09T11:58:25 EDT" duration-ms="526" status="PASS">
+        <test-method signature="selectingFacility()[pri:1, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:58 EDT" name="selectingFacility" finished-at="2023-06-20T10:54:59 EDT" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectingFacility -->
-        <test-method signature="checkBoxReadmission()[pri:2, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:25 EDT" name="checkBoxReadmission" finished-at="2023-06-09T11:58:25 EDT" duration-ms="154" status="PASS">
+        <test-method signature="checkBoxReadmission()[pri:2, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:59 EDT" name="checkBoxReadmission" finished-at="2023-06-20T10:54:59 EDT" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBoxReadmission -->
-        <test-method signature="healthProgramOptionbtn()[pri:3, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:25 EDT" name="healthProgramOptionbtn" finished-at="2023-06-09T11:58:26 EDT" duration-ms="227" status="PASS">
+        <test-method signature="healthProgramOptionbtn()[pri:3, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:59 EDT" name="healthProgramOptionbtn" finished-at="2023-06-20T10:54:59 EDT" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthProgramOptionbtn -->
-        <test-method signature="visitingDate()[pri:4, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:26 EDT" name="visitingDate" finished-at="2023-06-09T11:58:26 EDT" duration-ms="613" status="PASS">
+        <test-method signature="visitingDate()[pri:4, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:54:59 EDT" name="visitingDate" finished-at="2023-06-20T10:55:00 EDT" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visitingDate -->
-        <test-method signature="sendComment()[pri:5, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:26 EDT" name="sendComment" finished-at="2023-06-09T11:58:27 EDT" duration-ms="433" status="PASS">
+        <test-method signature="sendComment()[pri:5, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:55:00 EDT" name="sendComment" finished-at="2023-06-20T10:55:01 EDT" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendComment -->
-        <test-method signature="readmissionConfirmation()[pri:6, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:27 EDT" name="readmissionConfirmation" finished-at="2023-06-09T11:58:27 EDT" duration-ms="272" status="PASS">
+        <test-method signature="readmissionConfirmation()[pri:6, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:55:01 EDT" name="readmissionConfirmation" finished-at="2023-06-20T10:55:01 EDT" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readmissionConfirmation -->
-        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:27 EDT" name="stopRecordings" finished-at="2023-06-09T11:58:27 EDT" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:55:01 EDT" name="stopRecordings" finished-at="2023-06-20T10:55:01 EDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecordings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.ReadmissionBooking@71a8adcf]" started-at="2023-06-09T11:58:27 EDT" name="tearDown" finished-at="2023-06-09T11:58:27 EDT" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.ReadmissionBooking@82de64a]" started-at="2023-06-20T10:55:01 EDT" name="tearDown" finished-at="2023-06-20T10:55:02 EDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.ReadmissionBooking -->
       <class name="com.testCases.BookingAppointment">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:27 EDT" name="setup" finished-at="2023-06-09T11:58:31 EDT" duration-ms="3955" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:02 EDT" name="setup" finished-at="2023-06-20T10:55:08 EDT" duration-ms="5987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:31 EDT" name="curaHealthcareLogin" finished-at="2023-06-09T11:58:32 EDT" duration-ms="1183" status="PASS">
+        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:08 EDT" name="curaHealthcareLogin" finished-at="2023-06-20T10:55:10 EDT" duration-ms="1973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaHealthcareLogin -->
-        <test-method signature="bookingAppointment()[pri:1, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:32 EDT" name="bookingAppointment" finished-at="2023-06-09T11:58:33 EDT" duration-ms="727" status="PASS">
+        <test-method signature="bookingAppointment()[pri:1, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:10 EDT" name="bookingAppointment" finished-at="2023-06-20T10:55:10 EDT" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingAppointment -->
-        <test-method signature="radioButn()[pri:2, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:33 EDT" name="radioButn" finished-at="2023-06-09T11:58:33 EDT" duration-ms="140" status="PASS">
+        <test-method signature="radioButn()[pri:2, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:10 EDT" name="radioButn" finished-at="2023-06-20T10:55:11 EDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButn -->
-        <test-method signature="selectingVisitDate()[pri:3, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:33 EDT" name="selectingVisitDate" finished-at="2023-06-09T11:58:34 EDT" duration-ms="376" status="PASS">
+        <test-method signature="selectingVisitDate()[pri:3, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:11 EDT" name="selectingVisitDate" finished-at="2023-06-20T10:55:11 EDT" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectingVisitDate -->
-        <test-method signature="sendComment()[pri:4, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:34 EDT" name="sendComment" finished-at="2023-06-09T11:58:34 EDT" duration-ms="420" status="PASS">
+        <test-method signature="sendComment()[pri:4, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:11 EDT" name="sendComment" finished-at="2023-06-20T10:55:12 EDT" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendComment -->
-        <test-method signature="bookingConfirmation()[pri:5, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:34 EDT" name="bookingConfirmation" finished-at="2023-06-09T11:58:34 EDT" duration-ms="311" status="PASS">
+        <test-method signature="bookingConfirmation()[pri:5, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:12 EDT" name="bookingConfirmation" finished-at="2023-06-20T10:55:12 EDT" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingConfirmation -->
-        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:34 EDT" name="stopRecordings" finished-at="2023-06-09T11:58:35 EDT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:12 EDT" name="stopRecordings" finished-at="2023-06-20T10:55:12 EDT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecordings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.BookingAppointment@51e69659]" started-at="2023-06-09T11:58:35 EDT" name="tearDown" finished-at="2023-06-09T11:58:35 EDT" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.BookingAppointment@750e2b97]" started-at="2023-06-20T10:55:12 EDT" name="tearDown" finished-at="2023-06-20T10:55:13 EDT" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.BookingAppointment -->
       <class name="com.testCases.InvalidDate">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.InvalidDate@201a4587]" started-at="2023-06-09T11:58:35 EDT" name="setup" finished-at="2023-06-09T11:58:39 EDT" duration-ms="3893" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.InvalidDate@2e385cce]" started-at="2023-06-20T10:55:13 EDT" name="setup" finished-at="2023-06-20T10:55:18 EDT" duration-ms="5419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.InvalidDate@201a4587]" started-at="2023-06-09T11:58:39 EDT" name="curaHealthcareLogin" finished-at="2023-06-09T11:58:40 EDT" duration-ms="1181" status="PASS">
+        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.InvalidDate@2e385cce]" started-at="2023-06-20T10:55:18 EDT" name="curaHealthcareLogin" finished-at="2023-06-20T10:55:20 EDT" duration-ms="1749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaHealthcareLogin -->
-        <test-method signature="invalidDate()[pri:0, instance:com.testCases.InvalidDate@201a4587]" started-at="2023-06-09T11:58:40 EDT" name="invalidDate" finished-at="2023-06-09T11:58:41 EDT" duration-ms="906" status="FAIL">
+        <test-method signature="invalidDate()[pri:0, instance:com.testCases.InvalidDate@2e385cce]" started-at="2023-06-20T10:55:20 EDT" name="invalidDate" finished-at="2023-06-20T10:55:21 EDT" duration-ms="1155" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -141,47 +141,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidDate -->
-        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.InvalidDate@201a4587]" started-at="2023-06-09T11:58:41 EDT" name="stopRecordings" finished-at="2023-06-09T11:58:41 EDT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.InvalidDate@2e385cce]" started-at="2023-06-20T10:55:21 EDT" name="stopRecordings" finished-at="2023-06-20T10:55:21 EDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecordings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.InvalidDate@201a4587]" started-at="2023-06-09T11:58:41 EDT" name="tearDown" finished-at="2023-06-09T11:58:41 EDT" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.InvalidDate@2e385cce]" started-at="2023-06-20T10:55:21 EDT" name="tearDown" finished-at="2023-06-20T10:55:21 EDT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.InvalidDate -->
       <class name="com.testCases.MakeAppointmentLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.MakeAppointmentLogin@7bab3f1a]" started-at="2023-06-09T11:58:14 EDT" name="setup" finished-at="2023-06-09T11:58:17 EDT" duration-ms="3919" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.MakeAppointmentLogin@23c30a20]" started-at="2023-06-20T10:54:30 EDT" name="setup" finished-at="2023-06-20T10:54:44 EDT" duration-ms="13317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startRecording()[pri:0, instance:com.testCases.MakeAppointmentLogin@7bab3f1a]" started-at="2023-06-09T11:58:17 EDT" name="startRecording" finished-at="2023-06-09T11:58:18 EDT" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="startRecording()[pri:0, instance:com.testCases.MakeAppointmentLogin@23c30a20]" started-at="2023-06-20T10:54:44 EDT" name="startRecording" finished-at="2023-06-20T10:54:47 EDT" duration-ms="3670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startRecording -->
-        <test-method signature="curaHealthCarelogin()[pri:0, instance:com.testCases.MakeAppointmentLogin@7bab3f1a]" started-at="2023-06-09T11:58:18 EDT" name="curaHealthCarelogin" finished-at="2023-06-09T11:58:19 EDT" duration-ms="1532" status="PASS">
+        <test-method signature="curaHealthCarelogin()[pri:0, instance:com.testCases.MakeAppointmentLogin@23c30a20]" started-at="2023-06-20T10:54:47 EDT" name="curaHealthCarelogin" finished-at="2023-06-20T10:54:50 EDT" duration-ms="2910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaHealthCarelogin -->
-        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.MakeAppointmentLogin@7bab3f1a]" started-at="2023-06-09T11:58:19 EDT" name="stopRecordings" finished-at="2023-06-09T11:58:19 EDT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.MakeAppointmentLogin@23c30a20]" started-at="2023-06-20T10:54:50 EDT" name="stopRecordings" finished-at="2023-06-20T10:54:51 EDT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecordings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.MakeAppointmentLogin@7bab3f1a]" started-at="2023-06-09T11:58:19 EDT" name="tearDown" finished-at="2023-06-09T11:58:20 EDT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.MakeAppointmentLogin@23c30a20]" started-at="2023-06-20T10:54:51 EDT" name="tearDown" finished-at="2023-06-20T10:54:51 EDT" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.MakeAppointmentLogin -->
       <class name="com.testCases.InvalidLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:41 EDT" name="setup" finished-at="2023-06-09T11:58:45 EDT" duration-ms="3928" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:21 EDT" name="setup" finished-at="2023-06-20T10:55:27 EDT" duration-ms="5037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:45 EDT" name="curaHealthcareLogin" finished-at="2023-06-09T11:58:45 EDT" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="curaHealthcareLogin()[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:27 EDT" name="curaHealthcareLogin" finished-at="2023-06-20T10:55:27 EDT" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaHealthcareLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:46 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:47 EDT" duration-ms="1364" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:30 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:31 EDT" duration-ms="1552" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:47 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:48 EDT" duration-ms="901" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:31 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:32 EDT" duration-ms="1102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,7 +213,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:48 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:49 EDT" duration-ms="938" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:32 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:33 EDT" duration-ms="1090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,7 +229,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:49 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:50 EDT" duration-ms="1087" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:33 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:35 EDT" duration-ms="1352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:50 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:51 EDT" duration-ms="954" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:35 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:36 EDT" duration-ms="1336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:51 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-09T11:58:52 EDT" duration-ms="909" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:36 EDT" name="invalidLogin" data-provider="invalidCredentials" finished-at="2023-06-20T10:55:37 EDT" duration-ms="1214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,11 +277,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:52 EDT" name="stopRecordings" finished-at="2023-06-09T11:58:52 EDT" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="stopRecordings()[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:37 EDT" name="stopRecordings" finished-at="2023-06-20T10:55:37 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopRecordings -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.InvalidLogin@54a7079e]" started-at="2023-06-09T11:58:52 EDT" name="tearDown" finished-at="2023-06-09T11:58:52 EDT" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.InvalidLogin@2a7f1f10]" started-at="2023-06-20T10:55:37 EDT" name="tearDown" finished-at="2023-06-20T10:55:38 EDT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
